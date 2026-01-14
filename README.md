@@ -22,7 +22,7 @@ The dataset includes essential customer churn attributes such as:
 
 - Customer Service calls
 
-The aim is to understand the structure and contents of the dataset. This involves reviewing the available features, checking their data types and identifying potential issues such as missing values or unusual patterns.
+*The aim is to understand the structure and contents of the dataset. This involves reviewing the available features, checking their data types and identifying potential issues such as missing values or unusual patterns.*
 
 ## 3. Data Cleaning
 
@@ -50,7 +50,7 @@ Five models are trained and evaluated:
 
 - Gradient Boosting Classifier
 
-Model performance is assessed using Recall which emphasizes the correct identification of churners. In addition, ROC-AUC which measures overall classification ability.
+*Model performance is assessed using Recall which emphasizes the correct identification of churners. In addition, ROC-AUC which measures overall classification ability.*
 
 ## 5. Model Evaluation
 
@@ -62,7 +62,7 @@ Key metrics such as recall and ROC-AUC are emphasized. This is because they prov
 
 - Random Forest followed closely with an AUC of 0.908 also demonstrating high predictive power.
 
-Gradient Boosting and Random Forest show better diagnostic ability and are the best candidates for further tuning and optimization.
+*Gradient Boosting and Random Forest show better diagnostic ability and are the best candidates for further tuning and optimization.*
 
 ### Model Comparison
 
@@ -88,9 +88,9 @@ The tuned models Gradient Boosting and Random Forest were compared to evaluate p
   
 - ROC–AUC: 0.908
   
-Gradient Boosting achieved the best overall results especially in recall and F1 for churners; class 1. This aligns with the business objective of identifying customers likely to leave. Random Forest provided solid overall accuracy but underperformed on minority class recall.
+*Gradient Boosting achieved the best overall results especially in recall and F1 for churners; class 1. This aligns with the business objective of identifying customers likely to leave. Random Forest provided solid overall accuracy but underperformed on minority class recall.*
 
-Gradient Boosting is therefore selected as the final best model.
+*Gradient Boosting is therefore selected as the final best model.*
 
 ## 6. Conclusion 
 
@@ -100,7 +100,7 @@ Among the models tested, the Gradient Boosting Classifier provided the best bala
 
 Random Forest also performed well but its lower recall for churners makes it less suitable as the primary model.
 
-In conclusion, the results show the value of data driven modeling in supporting evidence based decision making for customer retention strategies.
+*In a nutshell, the results show the value of data driven modeling in supporting evidence based decision making for customer retention strategies.*
 
 ## 7. Recommendations 
 
@@ -112,6 +112,6 @@ In conclusion, the results show the value of data driven modeling in supporting 
 
 4. Frequently re-train and monitor the model.
 
-These actionable recommendations will help support informed, evidence based decision-making as SyriaTel works to reduce churn, improve retention and strengthen long term customer loyalty and profitability.
+*These actionable recommendations will help support informed, evidence based decision-making as SyriaTel works to reduce churn, improve retention and strengthen long term customer loyalty and profitability.*
 
 
