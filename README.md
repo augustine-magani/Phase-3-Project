@@ -1,5 +1,4 @@
 # SyriaTel Customer Churn Prediction 
-*Group 5: Musi Calori, Jessica Gichimu, Vicker Ivy, Bob Lewis*
 
 # Overview 
 SyriaTel is a telecommunication company whose revenue model depends on recurring subscriptions. In the competitive industry, customer churn is a major threat as it reduces revenue and raises acquisition costs. Minimizing churn is therefore important for sustaining profitability and customer loyalty.
@@ -73,25 +72,25 @@ The tuned models Gradient Boosting and Random Forest were compared to evaluate p
 
 - Accuracy: 95%
 
-- Recall of churners: 0.83
+- Recall of churners: 0.81
 
-- F1-score of churners: 0.85
+- F1-score of churners: 0.82
 
-- ROC–AUC: 0.921
+- ROC–AUC: 0.923
 
 **Random Forest**
 
 - Accuracy: 91%
   
-- Recall of churners: 0.59
+- Recall of churners: 0.58
 
 - F1-score of churners: 0.65
   
-- ROC–AUC: 0.911
+- ROC–AUC: 0.908
   
 Gradient Boosting achieved the best overall results especially in recall and F1 for churners; class 1. This aligns with the business objective of identifying customers likely to leave. Random Forest provided solid overall accuracy but underperformed on minority class recall.
 
-Gradient Boosting is therefore selected as the final model.
+Gradient Boosting is therefore selected as the final best model.
 
 ## 6. Conclusion 
 
